@@ -1,0 +1,96 @@
+.brand-icon {
+  display: flex;
+}
+
+.commonnav {
+  max-height: 48px;
+  z-index: 100;
+}
+
+.brand-name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.search {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-icon:hover {
+  background-color: #215aba !important;
+}
+
+.nav-right {
+  height: 48px;
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  right: 0;
+}
+
+.nav-right .user-icon {
+  height: 48px;
+  max-height: 48px;
+  max-width: 48px;
+}
+
+@media screen and (max-width: 530px) {
+  .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+    width: 20%;
+  }
+
+  #search-icon {
+    min-height: 10px;
+    min-width: 10px;
+  }
+
+  #search-box {
+    width: 8%;
+    position: relative;
+  }
+
+  .nav-right {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input-group {
+    flex-wrap: nowrap;
+  }
+
+  #search-box {
+    width: 300px;
+  }
+
+  .nav-right {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    right: 0;
+  }
+
+  .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
