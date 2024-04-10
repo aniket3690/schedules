@@ -6,16 +6,33 @@
   background-color: #fff;
   box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
   /* This is Smooth Transition  */
-  /* transition: 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94); */
+  transition: 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .sidebar.closed {
-  margin-left: -300px;
+  margin-left: -230px;
+}
+
+.list-item-icon.closed {
+  margin-left: 230px !important;
+}
+
+.list-item-name.closed {
+  display: none !important;
 }
 
 .closer {
+  position: sticky;
+  color: white;
+  height: 30px;
+  width: 30px;
+  border: 0.5px;
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+  background-color: #215aba;
   display: flex;
-  margin-left: 30px;
+  margin-left: 275px;
   margin-bottom: 20px;
   margin-top: 30px;
 }
@@ -38,6 +55,11 @@
 .list-item-icon {
   margin-left: 10px;
   margin-bottom: 10px;
+  transition: 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.list-item-name {
+  transition: 2s cubic-bezier(0.25, 0.46, 0.45, 2) !important;
 }
 
 .closer:hover {
