@@ -1,3 +1,10 @@
+.header {
+  /* on-toggle-sidebar
+  margin-left: 350px; */
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
 .header-icon {
   color: #215aba;
   align-items: center;
@@ -5,8 +12,6 @@
   height: 30px;
   width: 30px;
   display: flex;
-  margin-left: 350px;
-  margin-top: 30px;
 }
 
 .header-name {
@@ -14,8 +19,70 @@
   font-size: 1.5rem;
   font-weight: bold;
   display: flex;
-  margin-left: 390px;
+  margin-left: 40px;
   margin-top: -35px;
+}
+
+.header-date {
+  margin-left: 9px;
+  display: flex;
+  font-size: 12px;
+}
+
+.header-utils {
+  font-size: 0.9rem;
+  color: #797775;
+  font-weight: lighter;
+  position: absolute;
+  right: 5px;
+  margin-top: -45px;
+}
+
+.util-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  background-color: transparent !important;
+  color: #34373d !important;
+  border-color: transparent !important;
+}
+
+.util-content:hover {
+  background-color: white !important;
+}
+
+.util {
+  border-radius: 10px;
+  justify-content: space-between;
+  margin-right: 15px;
+}
+
+.util-icon {
+  margin-right: 10px;
+}
+
+
+@media screen and (max-width: 500px) {
+  .header-utils {
+    right: 120px;
+    width: 0px !important;
+  }
+
+  .btn {
+    width: 38px !important;
+  }
+
+  .util {
+    width: 38px !important;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  .util-text {
+    display: none;
+  }
 }
 
 .header-option {
@@ -30,10 +97,19 @@
 }
 
 .header-option:hover {
-
   background-color: white;
 }
 
-.tooltip {
-  color: black;
+.tooltip>div.tooltip-inner {
+  background-color: white !important;
+  color: black !important;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tooltip.show {
+  opacity: 1 !important;
+}
+
+#tooltip .arrow::before {
+  border-top-color: white !important;
 }

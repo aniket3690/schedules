@@ -1,0 +1,76 @@
+.input-box {
+  margin-right: 30px;
+  /* on-toggle-sidebar */
+  /* margin-left: 350px; */
+  margin-left: 100px;
+  margin-top: 50px;
+  height: 100px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 3px;
+
+}
+
+.input-box-upper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 30px;
+  height: 55%;
+}
+
+.input-box-middle {
+  border-bottom: 1px solid #e9ecef;
+}
+
+.input-box-lower {
+  display: flex;
+  margin-left: 30px;
+  background-color: transparent;
+  height: 45%;
+  justify-content: space-between;
+}
+
+.form-box {
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.btn-add {
+  height: 30% !important;
+  border-color: #e9ecef !important;
+  color: black !important;
+  background-color: transparent !important;
+  border-radius: 0 !important;
+}
+
+.icon {
+  border-radius: 5px;
+  padding-top: 2px;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  margin-right: 15px;
+}
+
+.icon:hover {
+  background-color: #ecf6fd;
+}
+
+.task-box {
+  margin-left: 5px;
+  width: 100%;
+}
+
+.inner-box-lower-options-left {
+  display: flex;
+  align-items: center;
+}
+
+.inner-box-lower-options-right {
+  margin-right: 55px;
+  position: absolute;
+  right: 0;
+  align-items: center;
+}
