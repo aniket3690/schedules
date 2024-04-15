@@ -31,8 +31,8 @@ class MainWinow extends Component {
               <Button className='util-content'><span className='util-icon'><FontAwesomeIcon icon={faLightbulb} size="lg" /></span><span className='util-text'>Suggesion</span></Button>
             </div>
           </div>
+          <Inputbox />
         </div>
-        <Inputbox />
       </div >
     );
   }

@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import CommonNav from '../src/components/CommonNav';
 import CommonSidebar from './components/CommonSidebar';
